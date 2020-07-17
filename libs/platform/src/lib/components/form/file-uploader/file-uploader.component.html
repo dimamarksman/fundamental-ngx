@@ -1,0 +1,6 @@
+<fd-file-input #fileInput>
+    <div fd-form-item>
+        <input fd-form-control type="text" [attr.placeholder]="placeholder" />
+        <button fd-button (click)="fileInput.open()">{{ buttonLabel }}</button>
+    </div>
+</fd-file-input>
